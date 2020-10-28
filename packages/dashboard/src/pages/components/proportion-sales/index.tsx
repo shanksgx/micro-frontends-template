@@ -38,8 +38,8 @@ const ProportionSales: React.FC<ProportionSalesProps> = ({
     radius: 0.8,
     innerRadius: 0.6,
     label: {
-      type: 'outer',
-      content: '{name} {percentage}',
+      type: 'spider',
+      content: '{name}\n{percentage}',
     },
     height: 382,
     interactions: [{ type: 'pie-legend-active' }],
