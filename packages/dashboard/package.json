@@ -1,0 +1,26 @@
+{
+  "name": "@micro-frontend/dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build"
+  },
+  "homepage": "/dashboard",
+  "dependencies": {
+    "@alitajs/antd-plus": "^2.4.1",
+    "@ant-design/pro-card": "^1.4.2",
+    "@ant-design/pro-layout": "^6.5.9",
+    "@pansy/react-charts": "^1.0.0",
+    "@umijs/preset-react": "1.6.16",
+    "numeral": "^2.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "umi": "^3.2.24"
+  },
+  "devDependencies": {
+    "@alitajs/umi-plugin-antd-plus": "^0.2.0",
+    "@types/numeral": "^0.0.28",
+    "@umijs/plugin-qiankun": "^2.17.3"
+  }
+}
