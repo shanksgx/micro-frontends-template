@@ -28,17 +28,21 @@ export default defineConfig({
        */
       apps: [
         defineApp({
-          name: 'account',
-          entry: 'http://localhost:9001',
-        }),
-        defineApp({
           name: 'dashboard',
           entry: 'http://localhost:9002',
         }),
         defineApp({
           name: 'login',
           entry: 'http://localhost:9003',
-        })
+        }),
+        defineApp({
+          name: 'account',
+          entry: 'http://localhost:9001',
+        }),
+        defineApp({
+          name: 'libraries',
+          entry: 'http://localhost:9005',
+        }),
       ],
     },
   },
@@ -65,6 +69,27 @@ export default defineConfig({
         name: '首页',
         icon: 'dashboard',
       },
+    },
+    {
+      path: '/libraries',
+      menu: {
+        name: '精选组件',
+        icon: 'rocket',
+      },
+      routes: [
+        {
+          path: '/libraries',
+          redirect: '/libraries/amap',
+        },
+        {
+          path: '/libraries/amap',
+          menu: {
+            name: '高德地图',
+            icon: 'rocket',
+          },
+          microApp: 'libraries',
+        }
+      ]
     },
     {
       path: '/account',
