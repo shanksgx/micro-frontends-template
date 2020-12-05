@@ -8,15 +8,15 @@
   },
   "homepage": "/login",
   "dependencies": {
-    "@ant-design/pro-layout": "^6.5.9",
+    "@ant-design/pro-layout": "6.5.17",
     "@umijs/preset-react": "1.7.6",
-    "classnames": "^2.2.6",
-    "js-cookie": "^2.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "umi": "^3.2.24"
+    "classnames": "2.2.6",
+    "js-cookie": "2.2.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "umi": "3.3.0"
   },
   "devDependencies": {
-    "@umijs/plugin-qiankun": "^2.17.3"
+    "@umijs/plugin-qiankun": "2.18.1"
   }
 }
