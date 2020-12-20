@@ -9,6 +9,7 @@
   "homepage": "/dashboard",
   "dependencies": {
     "@alitajs/antd-plus": "2.5.0",
+    "@ant-design/pro-card": "1.7.2",
     "@ant-design/pro-card": "1.7.1",
     "@ant-design/pro-layout": "6.7.0",
     "@pansy/react-charts": "1.0.0",
