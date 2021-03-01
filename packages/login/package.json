@@ -9,7 +9,7 @@
   "homepage": "/login",
   "dependencies": {
     "@ant-design/pro-layout": "6.10.9",
-    "@umijs/preset-react": "1.7.12",
+    "@umijs/preset-react": "1.7.13",
     "classnames": "2.2.6",
     "js-cookie": "2.2.1",
     "react": "17.0.1",
