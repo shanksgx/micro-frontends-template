@@ -17,6 +17,6 @@
     "umi": "3.3.9"
   },
   "devDependencies": {
-    "@umijs/plugin-qiankun": "2.22.0"
+    "@umijs/plugin-qiankun": "2.23.0"
   }
 }
