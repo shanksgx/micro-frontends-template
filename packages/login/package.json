@@ -14,7 +14,7 @@
     "js-cookie": "2.2.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "umi": "3.4.8"
+    "umi": "3.4.10"
   },
   "devDependencies": {
     "@umijs/plugin-qiankun": "2.24.1"
